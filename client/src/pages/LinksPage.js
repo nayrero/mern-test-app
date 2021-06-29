@@ -28,7 +28,7 @@ export const LinksPage = () => {
     }
     return (
         <div>
-            {!loading && <LinksList links={links} />}
+            {!loading && <LinksList links={links} setLinks={setLinks}/>}
         </div>
     )
 }
